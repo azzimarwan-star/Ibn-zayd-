@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
@@ -110,4 +110,117 @@
 </section>
 
 </body>
-</html>
+</html>DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ibn zayd - مطعم المأكولات الخفيفة</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Tajawal", sans-serif;
+            background: #fff;
+            color: #222;
+        }
+
+        header {
+            background: linear-gradient(to right, #ff3b2f, #ff8c2f);
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background: #222;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1603048297172-c92544798f64');
+            background-size: cover;
+            background-position: center;
+            height: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 0 0 10px #000;
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .item {
+            border-radius: 10px;
+            padding: 20px;
+            background: #ffefe6;
+            border: 2px solid #ff8c2f;
+        }
+
+        .item img {
+            width: 100%;
+            border-radius: 10px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        @media(max-width: 600px) {
+            .hero {
+                font-size: 25px;
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>مطعم ibn zayd</h1>
+    <p>أشهى المأكولات الخفيفة</p>
+</header>
+
+<nav>
+    <a href="#menu">قائمة الطعام</a>
+    <a href="#contact">تواصل معنا</a>
+</nav>
+
+<div class="hero">
+    مرحباً بكم في عالم النكهات!
+</div>
+
+<section class="section" id="menu">
+    <h2>🍽 قائمة الطعام</h2>
+    <div class="menu-grid">
+
+        <div class="item">
+            <img src="https://images.uns
